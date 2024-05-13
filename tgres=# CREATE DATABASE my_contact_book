@@ -1,0 +1,15 @@
+                                         List of databases
+            Name            |  Owner  | Encoding |   Collate   |    Ctype    |  Access privileges  
+----------------------------+---------+----------+-------------+-------------+---------------------
+ postgres                   | student | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ rails_template_development | student | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ rails_template_test        | student | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0                  | student | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/student         +
+                            |         |          |             |             | student=CTc/student
+ template1                  | student | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/student         +
+                            |         |          |             |             | student=CTc/student
+(5 rows)
+
+postgres=# CREATE DATABASE my_contact_book;
+
+CREATE DATABASE
